@@ -183,7 +183,7 @@ Try {
 		# <Perform Uninstallation tasks here>
 		Execute-Process -Path "$envProgramFiles\VCG\MeshLab\Uninstall.exe" -Parameters '/S' -WindowStyle 'Hidden'
 		Wait-Process -Name Un_A
-		Start-Slepp -s 10
+		Start-Sleep -s 10
 
 
 		##*===============================================
